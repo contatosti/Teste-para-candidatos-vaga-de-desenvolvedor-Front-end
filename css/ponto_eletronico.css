@@ -1,0 +1,485 @@
+/* Navbar */
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #1D4ED8;
+}
+
+#titulo-nav{
+    position: absolute;
+    width: 205px;
+    height: 36px;
+    left: 87px;
+    top: 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.dropdown{
+    position: absolute !important;
+    right: 87px;
+    top: 17px;
+}
+
+.dropdown-toggle{
+    background: #2563EB;
+    border-radius: 50px;
+    border-color: #2563EB;
+    width: 255px;
+    height: 48px;
+}
+
+.dropdown-toggle:hover{
+    background: #0542c5;
+    border-color: #0542c5;
+    border-radius: 5px;
+}
+.dropdown-toggle:focus{
+    background: #0542c5;
+    border-color: #0542c5;
+    border-radius: 5px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.dropdown-nome{
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #EFF6FF;
+    position: absolute;
+    left: 8.67%;
+    right: 16.47%;
+    top: 2%;
+}
+
+#info-usuario{
+    display: none;
+}
+
+.dropdown-icone{
+    width: 30%;
+    position: absolute;
+    left: 68.96%;
+    right: 5.49%;
+    top: 1.67%;
+    bottom: 16.67%;
+}
+
+.dropdown-item{
+    color: #EFF6FF;
+}
+
+.dropdown-item:hover{
+    background: #2563EB;
+    color: #EFF6FF;
+    
+}
+
+.dropdown-menu.show{
+    width: 250px;
+    background: #2563EB;
+}
+
+/* Sidebar */
+.sidebar{
+    position: absolute;
+    width: 15%;
+    height: 752px;
+    left: 0px;
+    top: 80px;
+    background: #DBEAFE;
+}
+.sider-nav ul{
+    padding: 0;
+}
+.sider-nav ul li{
+    list-style: none;
+}
+
+.sider-nav ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 30px 24px 30px;
+    gap: 10px;
+    height: 72px;
+    color: #60A5FA;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.sider-nav ul li:hover{
+    background-color: #6EE7B7;
+    color: #10B981;
+}
+
+a.active{
+    background: #BFDBFE;
+}
+
+#sidebar-footer{
+    position: absolute;
+    bottom:0;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+}
+#sidebar-footer-img{
+    text-align: center;
+}
+#sidebar-footer-img img{
+    width: 75%;
+}
+
+#sidebar-footer-txt{
+    font-size: 12px;
+    color: #737373;
+}
+
+/* Painel Principal */
+#ponto-eletronico ul{
+    position: absolute;
+    top: 96px;
+    flex-direction: row;
+    display: flex;
+    width: 85%;
+    right: 0;
+}
+#ponto-eletronico ul li{
+    list-style: none;
+}
+#ponto-eletronico ul li h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #1E3A8A;
+}
+
+#ponto-eletronico ul div{
+    right: 0;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+}
+.botoes{
+    margin-right: 2rem;
+}
+#ponto-eletronico ul div li a{
+    margin: 1rem 1rem 0 1rem;
+    padding: 0.2rem 0.4rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    width: 167px;
+}
+
+/* Card - Batida de Ponto */
+.card.mb-3{
+    background: #CBD5E1;
+    top: 160px;
+    left: 181px;
+    width: 80%;
+    height: 350px;
+}
+
+.col-md-4{
+    width: 54.333333%;
+    margin: 1.5rem;
+}
+
+.col-md-8{
+    width: 35.666667%;
+    margin: 1rem;
+}
+.form-control{
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.input-group-text{
+    background: #ffffff;
+    border-left: none;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.btn-foto,
+.btn-bater-ponto,
+.btn-cancelar{
+    display: list-item;
+    font-size: 13px;
+    border-radius: 3px;
+    margin: 5px;
+    width: 114px;
+}
+
+.ultimas-batidas{
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 80%;
+    height: 350px;
+}
+
+.ultimas-batidas div h6{
+    top: 125px;
+    left: 190px;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card.mb-3.card-ultima-batida{
+    background: #CBD5E1;
+    width: 50%;
+    height: 110px;
+    margin: 1rem;
+}
+
+.col-md-4.foto-usuario{
+    width: 34.333333%;
+    margin: 0.7rem;
+}
+.col-md-8.batida-usuario{
+    width: 55.666667%;
+    margin: 0.3rem;
+}
+
+.col-md-8.batida-usuario div{
+    padding: 0;
+}
+
+.col-md-8.batida-usuario div p{
+    margin-bottom: .3rem;
+    margin-top: .5rem;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #575757;
+}
+
+@media (min-width: 1326px){
+    .card.mb-3{
+        left: 250px;
+        width: 75%;
+    }
+    .ultimas-batidas div h6{
+        left: 250px;
+    }
+    .col-md-4.foto-usuario{
+        width: 28.333333%;
+        margin: 0.5rem;
+    }
+    .card.mb-3.card-ultima-batida{
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px){
+    .botoes{
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .sidebar{
+        width: 9%;
+    }
+    .sidebar-span{
+        display: none;
+    }
+    .sider-nav ul li a{
+        justify-content: center;
+        padding: 20px 5px 20px 5px;
+    }
+
+    .span-botoes{
+        display: none;
+    }
+
+    #ponto-eletronico ul div li a {
+        width: 50px;
+        height: 35px;
+    }
+
+    .card.mb-3{
+        left: 151px;
+        width: 77%;
+        height: 670px;
+    }
+    
+    .col-md-4{
+        width: 95.333333%;
+        margin: .8rem;
+    }
+
+    .col-md-4 img{
+        width: 100%;
+    }
+    
+    .col-md-8{
+        width: 85.666667%;
+        margin: 1rem 3rem 1rem 2rem;
+    }
+
+    .btn-foto,
+    .btn-bater-ponto,
+    .btn-cancelar{
+        display: inline;
+        margin: 1rem 1.5rem 1rem 1rem;
+    }
+
+    .ultimas-batidas{
+        top: 750px;
+        left: -35px;
+        width: 85%;
+        height: 350px;
+    }
+
+    .card.mb-3.card-ultima-batida{
+        width: 50%;
+        height: 90px;
+    }
+
+    .col-md-4.foto-usuario{
+        width: 32.333333%;
+        margin: 0.5rem;
+    }
+    .col-md-8.batida-usuario div p{
+        margin-bottom: .3rem;
+        margin-top: .3rem;
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+        color: #575757;
+    }
+}
+
+@media (max-width: 425px){
+
+    #titulo-nav{
+        left: 20px;
+    }
+    .dropdown{
+        right: 30px;
+    }
+    .dropdown-toggle{
+        width: 48px;
+    }
+    .dropdown-nome{
+        display: none;
+    }
+    .dropdown-icone{
+        left: 0;
+    }
+    #info-usuario{
+        display: flex;
+        text-align: center;
+    }
+    #info-usuario p{
+        margin-bottom: 0;
+    } 
+    .dropdown-menu[data-bs-popper] {
+        left: -197px;
+    }
+
+    .sidebar{
+        width: 15%;
+        height: 1190px;
+    }
+    
+    #ponto-eletronico ul{
+        justify-content: center;
+        width: 95%;
+    }
+    #ponto-eletronico ul div {
+        top:45px;
+        margin: 0 5.3rem;
+    }
+    #ponto-eletronico ul li h3{
+        font-size: 27px;
+    }
+    .span-botoes{
+        display: inline;
+    }
+
+    #ponto-eletronico ul div li a {
+        width: 165px;
+        height: 35px;
+    }
+    .card.mb-3{
+        top:210px;
+        left: 81px;
+        width: 77%;
+        height: 550px;
+    }
+    .col-md-4{
+        width: 95.333333%;
+        margin: .45rem;
+    }
+    .col-md-8{
+        width: 90.666667%;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+    .btn-foto,
+    .btn-bater-ponto,
+    .btn-cancelar{
+        display: list-item;
+        margin: 0.5rem 0rem 0rem 2.5rem;
+        width: 70%;
+    }
+
+    .ultimas-batidas{
+        top: 680px;
+        left: -30px;
+        width: 90%;
+        height: 350px;
+    }
+
+    .card.mb-3.card-ultima-batida{
+        width: 90%;
+        height: 175px;
+    }
+
+    .col-md-4.foto-usuario{
+        width: 82.333333%;
+        margin: 0.7rem;
+    }
+    .col-md-8.batida-usuario div p{
+        margin-bottom: .1rem;
+        margin-top: .1rem;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        color: #575757;
+    }
+    .col-md-8.batida-usuario{
+        width: 84.666667%;
+        margin: 0.1rem 0.5rem;
+    }
+
+    .ultimas-batidas div h6{
+        width: 90%;
+    }
+
+}

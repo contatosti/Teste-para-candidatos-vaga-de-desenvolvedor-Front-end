@@ -1,0 +1,545 @@
+/* Navbar */
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #1D4ED8;
+}
+
+#titulo-nav{
+    position: absolute;
+    width: 205px;
+    height: 36px;
+    left: 87px;
+    top: 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.dropdown{
+    position: absolute !important;
+    right: 87px;
+    top: 17px;
+}
+
+.dropdown-toggle{
+    background: #2563EB;
+    border-radius: 50px;
+    border-color: #2563EB;
+    width: 255px;
+    height: 48px;
+}
+
+.dropdown-toggle:hover{
+    background: #0542c5;
+    border-color: #0542c5;
+    border-radius: 5px;
+}
+.dropdown-toggle:focus{
+    background: #0542c5;
+    border-color: #0542c5;
+    border-radius: 5px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.dropdown-nome{
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #EFF6FF;
+    position: absolute;
+    left: 8.67%;
+    right: 16.47%;
+    top: 2%;
+}
+
+#info-usuario{
+    display: none;
+}
+
+.dropdown-icone{
+    width: 30%;
+    position: absolute;
+    left: 68.96%;
+    right: 5.49%;
+    top: 1.67%;
+    bottom: 16.67%;
+}
+
+.dropdown-item{
+    color: #EFF6FF;
+}
+
+.dropdown-item:hover{
+    background: #2563EB;
+    color: #EFF6FF;
+    
+}
+
+.dropdown-menu.show{
+    width: 250px;
+    background: #2563EB;
+}
+
+/* Sidebar */
+.sidebar{
+    position: absolute;
+    width: 15%;
+    height: 752px;
+    left: 0px;
+    top: 80px;
+    background: #DBEAFE;
+}
+.sider-nav ul{
+    padding: 0;
+}
+.sider-nav ul li{
+    list-style: none;
+}
+
+.sider-nav ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 30px 24px 30px;
+    gap: 10px;
+    height: 72px;
+    color: #60A5FA;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.sider-nav ul li:hover{
+    background-color: #6EE7B7;
+    color: #10B981;
+}
+
+a.active{
+    background: #BFDBFE;
+}
+
+#sidebar-footer{
+    position: absolute;
+    bottom:0;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+}
+#sidebar-footer-img{
+    text-align: center;
+}
+#sidebar-footer-img img{
+    width: 75%;
+}
+
+#sidebar-footer-txt{
+    font-size: 12px;
+    color: #737373;
+}
+
+/* Painel Principal */
+#painel-principal ul{
+    position: absolute;
+    top: 96px;
+    flex-direction: row;
+    display: flex;
+    width: 85%;
+    right: 0;
+}
+#painel-principal ul li{
+    list-style: none;
+}
+#painel-principal ul li h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #1E3A8A;
+}
+
+#painel-principal ul div{
+    right: 0;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+}
+.botoes{
+    margin-right: 2rem;
+}
+#painel-principal ul div li a{
+    margin: 1rem 1rem 0 1rem;
+    padding: 0.2rem 0.4rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    width: 167px;
+}
+
+#aviso-calendario{
+    position: absolute;
+    top: 177px;
+    right: 0;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+#carouselAvisos{
+    width: 65%;
+    height: 188px;
+    background: #FDA4AF;
+    border-radius: 5px;
+    margin: 0 2rem;
+}
+
+.carousel-item{
+    background: #FDA4AF;
+    transition: 10s;
+    border: none;
+    border-radius: 5px;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+}
+
+p.card-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #BE123C;
+    margin-top: 1rem;
+}
+
+p.card-text{
+    text-align: justify;
+    margin: 1rem 2rem 0 2rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #404040;
+}
+.carousel-control-prev,
+.carousel-control-next
+{
+    width: 5%;
+}
+
+
+
+#calendar{
+    width: 25%;
+    height: 190px;
+    background: #E2E8F0;
+}
+
+#calendar > div.fc-header-toolbar.fc-toolbar{
+    font-size: 9px;
+    text-transform: capitalize;
+    margin: 5px;
+    justify-content: center;
+}
+
+#calendar > div.fc-header-toolbar.fc-toolbar > div:nth-child(3) > button{
+    display: none;
+}
+
+#calendar > div.fc-header-toolbar.fc-toolbar > div:nth-child(3) > div > button.fc-prev-button.fc-button.fc-button-primary{
+    background: transparent;
+    border: none;
+}
+
+#calendar > div.fc-header-toolbar.fc-toolbar > div:nth-child(3) > div > button.fc-next-button.fc-button.fc-button-primary{
+    background: transparent;
+    border: none;
+}
+
+#calendar > div.fc-header-toolbar.fc-toolbar > div:nth-child(3) > div > button.fc-prev-button.fc-button.fc-button-primary > span{
+    color: #404040;
+}
+#calendar > div.fc-header-toolbar.fc-toolbar > div:nth-child(3) > div > button.fc-next-button.fc-button.fc-button-primary > span{
+    color: #404040;
+}
+
+.fc .fc-daygrid-day-number {
+    color: #404040;
+    text-decoration: none;
+}
+
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    min-height: 0.6rem;
+}
+
+.fc .fc-col-header-cell-cushion {
+    font-size: 14px;
+    color: #404040;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#tabela{
+    position: absolute;
+    width: 79%;
+    top: 384px;
+    right: 0;
+    background: #D9D9D9;
+    border-radius: 5px;
+    margin-right: 3rem;
+    padding: 2rem;
+    overflow: scroll;
+}
+
+#batidas-ponto_length{
+    display: none;
+}
+
+#batidas-ponto_filter > label{
+    display: none;
+}
+#batidas-ponto-filter > label > input[type=search]{
+    width: 90%;
+    background: #FAFAFA;
+    border: 1px solid #A3A3A3;
+    border-radius: 3px;
+    height: 36px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A3A3A3;
+}
+
+.input-group-text{
+    background: #FAFAFA;
+    border: 1px solid #A3A3A3;
+    border-radius: 3px;
+    height: 36px;
+}
+
+#busca-tabela{
+    flex-wrap: nowrap;
+    margin-bottom: 1.5rem;
+}
+
+#th-tabela{
+    background: #1D4ED8;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #EFF6FF;
+}
+
+#th-tabela tr th{
+    text-align: center;
+}
+
+tbody tr th,
+td{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #64748B;
+}
+
+tbody{
+    background: #FAFAFA;
+}
+
+#batidas-ponto_paginate > span{
+    display: none;
+}
+
+div#batidas-ponto_info.dataTables_info{
+    background: #1D4ED8;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: small !important;
+    line-height: 24px;
+    justify-content: right;
+    color: #EFF6FF;
+    width: 91%;
+    display: flex;
+    padding: 9px;
+}
+
+div#batidas-ponto_paginate.dataTables_paginate.paging_simple_numbers{
+    background: #1D4ED8;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: small !important;
+    line-height: 24px;
+    justify-content: center;
+    color: #EFF6FF;
+    width: 9%;
+    display: flex;
+}
+
+a#batidas-ponto_next.paginate_button.next.disabled{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12x !important;
+    line-height: 24px;
+    align-items: center;
+    text-align: start;
+    color: #EFF6FF !important;
+}
+
+a#batidas-ponto_previous.paginate_button.previous.disabled{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12x !important;
+    line-height: 24px;
+    align-items: center;
+    text-align: start;
+    color: #EFF6FF !important;
+}
+
+@media (max-width: 1024px){
+    #tabela{
+        width: 80%;
+        margin-right: 1.2rem;
+    }
+    .botoes{
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    #carouselAvisos {
+        width: 55%;
+        margin: 0px 1.4rem;
+    }
+
+    p.card-title{
+        margin-top: 0;
+    }
+
+    #calendar{
+        width: 35%;
+    }
+
+    .sidebar{
+        width: 9%;
+    }
+    .sidebar-span{
+        display: none;
+    }
+    .sider-nav ul li a{
+        justify-content: center;
+        padding: 20px 5px 20px 5px;
+    }
+
+    .span-botoes{
+        display: none;
+    }
+
+    #painel-principal ul div li a {
+        width: 50px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 425px){
+
+    #titulo-nav{
+        left: 20px;
+    }
+    .dropdown{
+        right: 30px;
+    }
+    .dropdown-toggle{
+        width: 48px;
+    }
+    .dropdown-nome{
+        display: none;
+    }
+    .dropdown-icone{
+        left: 0;
+    }
+    #info-usuario{
+        display: flex;
+        text-align: center;
+    }
+    #info-usuario p{
+        margin-bottom: 0;
+    } 
+    .dropdown-menu[data-bs-popper] {
+        left: -197px;
+    }
+
+    .sidebar{
+        width: 15%;
+        height: 1190px;
+    }
+    
+    #painel-principal ul{
+        justify-content: center;
+    }
+    #painel-principal ul div {
+        top:45px;
+        margin: 0 5.3rem;
+    }
+    #painel-principal ul li h3{
+        font-size: 27px;
+    }
+    #aviso-calendario{
+        flex-wrap: wrap;
+    }
+    #carouselAvisos{
+        width: 90%;
+        top: 40px;
+    }
+
+    #calendar{
+        width: 89%;
+        height: 269px;
+        top: 90px;
+        left: 19px;
+    }
+
+    #tabela{
+        top:750px;
+        width: 76%;
+    }
+}
