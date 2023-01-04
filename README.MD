@@ -7,7 +7,7 @@
 1. Faça um fork deste repositório;
 2. Implemente o HTML/CSS da tela com base no layout disponível;
 3. Preocupe-se em desenvolver o css utilizando responsividade e mobile first;
-4. Para a interação do formulário utilize preferencialmente ReactJs e/ou jQuery;
+4. Para a interação do formulário utilize preferencialmente Javascript/TypeScript e/ou jQuery;
 5. Após terminar seu teste submeta um pull request e aguarde seu feedback.
 
 * **Importante:** Os formulário não devem fazer requisições para nenhuma url.
