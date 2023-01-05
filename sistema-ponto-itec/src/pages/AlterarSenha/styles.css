@@ -26,7 +26,7 @@
 
 .div-input-icone {
     background-color: white;
-    margin-top: 47px;
+    margin-top: 51px;
     width: 220px;
     height: 34px;
     border-radius: 2px;
@@ -73,16 +73,6 @@
 
 }
 
-.link-senha {
-    margin-top: 8px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #D4D4D4;
-}
-
 .footer-content {
     margin-top: 60px;
 
@@ -109,14 +99,10 @@
 @media (min-width: 1024px) { 
 
 
-
-    
-
 }
 /* Large devices (large desktops, 1280px and up) */
 @media (min-width: 1280px) {
     
   
-
 }
 

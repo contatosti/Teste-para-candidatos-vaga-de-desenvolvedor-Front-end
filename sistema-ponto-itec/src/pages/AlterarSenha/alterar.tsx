@@ -1,7 +1,7 @@
 import * as React from 'react';
 import "./styles.css";
 
-export function Login() {
+export function Alterar() {
 
     return (
         <div className="flex vh-100 background-azul justify-content-center align-items-center">
@@ -12,21 +12,20 @@ export function Login() {
 
                 <h1 className="nome-orgao text-white text-center">[NOME DO ORGÃO]</h1>
 
-                <p className="nome-gestor text-white text-center">Área do gestor</p>
+                <p className="nome-gestor text-white text-center">Alteração de senha</p>
 
                 <div className="div-input-icone input-group ">
-                    <input className="input-usuario" type="text" placeholder="Usuário"/>
-                    <img src="usuario.png" alt="" className="icone"/>
+                    <input className="input-usuario" type="password" placeholder="Nova senha"/>
+                    <img src="cadeado.png" alt="" className="icone"/>
                 </div>
 
                 <div className="div-input-icone-senha input-group ">
-                    <input className="input-usuario" type="password" placeholder="Senha"/>
+                    <input className="input-usuario" type="password" placeholder="Confirmação de senha"/>
                     <img src="cadeado.png" alt="" className="icone"/>
                 </div>
 
                 <button className="btn btn-primary btn-entrar">Entrar</button>
 
-                <a className="link-senha" href="#">Esqueci minha senha!</a>
 
 
             </section>
