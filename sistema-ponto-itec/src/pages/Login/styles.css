@@ -1,0 +1,31 @@
+/* mobile first */
+
+.titulozinho {
+    color: green;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .titulozinho {
+        color: blue;
+    }
+    
+}
+/* Medium devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+
+    .titulozinho {
+        color: red;
+    }
+
+}
+/* Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+    
+    .titulozinho {
+        color: purple;
+    }
+
+}
+
