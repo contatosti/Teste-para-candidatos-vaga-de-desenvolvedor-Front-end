@@ -1,0 +1,75 @@
+.background-azul {
+    background-color: #1D4ED8;;
+}
+
+.titulo-sistema {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    left: 87px;
+    top: 22px;
+}
+
+.div-perfil {
+    background: #2563EB;
+    border-radius: 50px;
+    color: white;
+    margin: 16px 85px 16px auto;
+}
+
+.div-nome-perfil {
+    width: 196px;
+    height: 48px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+.texto-perfil {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.texto-perfil2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.icone-perfil {
+    margin-right: 14px;
+    margin-top: 8px;
+
+}
+
+aside {
+    background: #DBEAFE;
+    width: 245px;
+}
+
+.btn-aside {
+    padding: 24px 40px 24px 40px;
+    color: #3B82F6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 245px !important;
+}
+
+.text-aside {
+    margin: 0;
+    margin-left: 13px;
+}
+
+.footer-content {
+    margin-bottom: 0px;
+}
+
+.versao-text {
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #737373;
+}
