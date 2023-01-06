@@ -1,45 +1,50 @@
-import * as React from 'react';
+import React from 'react';
 import "./styles.css";
 
 export function Login() {
 
     return (
-        <div className="flex vh-100 background-azul justify-content-center align-items-center">
+        <div className="d-flex vh-100 flex-column background-azul">
+            
 
             <img src="logobg.png" alt="Logo no background" className="background-logo" />
 
-            <section className="d-flex flex-column container justify-content-center align-items-center" >
+            <div className="div-section" >
 
-                <h1 className="nome-orgao text-white text-center">[NOME DO ORGÃO]</h1>
+                <form action="/painel-principal" method="get">
 
-                <p className="nome-gestor text-white text-center">Área do gestor</p>
+                    <section className="d-flex flex-column container justify-content-center align-items-center" >
 
-                <div className="div-input-icone input-group ">
-                    <input className="input-usuario" type="text" placeholder="Usuário"/>
-                    <img src="usuario.png" alt="" className="icone"/>
-                </div>
+                        <h1 className="nome-orgao text-center">[NOME DO ORGÃO]</h1>
 
-                <div className="div-input-icone-senha input-group ">
-                    <input className="input-usuario" type="password" placeholder="Senha"/>
-                    <img src="cadeado.png" alt="" className="icone"/>
-                </div>
+                        <p className="nome-gestor text-center">Área do gestor</p>
 
-                <button className="btn btn-primary btn-entrar">Entrar</button>
+                        <div className="div-input-icone input-group ">
+                            <input className="input-usuario" type="text" placeholder="Usuário"/>
+                            <img src="usuario.png" alt="" className="icone"/>
+                        </div>
 
-                <a className="link-senha" href="#">Esqueci minha senha!</a>
+                        <div className="div-input-icone-senha input-group ">
+                            <input className="input-usuario" type="password" placeholder="Senha"/>
+                            <img src="cadeado.png" alt="" className="icone"/>
+                        </div>
 
+                        <button className="btn btn-primary btn-entrar" type="submit">Entrar</button>
 
-            </section>
+                        <a className="link-senha" href="/recuperacao-senha">Esqueci minha senha!</a>
 
+                    </section>
 
-            <footer className="d-flex flex-column w-full justify-content-center align-items-center footer-content">
+                </form>
+            </div> 
+
+            <footer className="d-flex w-full align-items-center footer-content">
 
                 <img src="ativo.png" alt="Logo e iso" />
 
                 <p className="versao-text text-white">2022 - versão 1.0</p>
 
             </footer>
-
                                         
         </div>
     )

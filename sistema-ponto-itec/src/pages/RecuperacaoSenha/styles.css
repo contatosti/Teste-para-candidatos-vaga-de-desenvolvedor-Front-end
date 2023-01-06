@@ -1,40 +1,9 @@
-.background-azul {
-    background-color: #1E3A8A;
-}
-
-.background-logo {
-    position: absolute;
-    margin-left: -61px;
-    margin-top: 86px;
-}
-
-.container {
+.container-recuperacao {
+    width: auto;
     padding-top: 163px;
 }
 
-.nome-orgao {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.nome-gestor {
-    font-weight: 600;
-    margin-bottom: 0;
-    font-style: normal;
-}
-
-.div-input-icone {
-    background-color: white;
-    margin-top: 47px;
-    width: 220px;
-    height: 34px;
-    border-radius: 2px;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.btn-entrar {
+.btn-solicitar {
     width: 160px;
     height: 32px;
     padding: 4px, auto , 4px, auto !important;
@@ -45,51 +14,20 @@
 
 }
 
-.input-usuario {
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 5px;
-    margin-left: 13px;
-    border: none
-    
-}
 
-.icone {
-    width: 14px;
-    height: 14px;
-    margin-right: 5px;
 
-}
-
-.footer-content {
-    margin-top: 60px;
-
-}
-
-.versao-text {
-    margin-top: 6px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-    .background-logo {
-        position: absolute;
-        margin-left: 0;
-        margin-top: 86px;
-    }
-    
-}
 /* Medium devices (desktops, 1024px and up) */
 @media (min-width: 1024px) { 
 
-
-
-    
-
+    .container-recuperacao {
+        width: 350px;
+        height: 400px;
+        background: #E2E8F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding-top: 0;
+    }
+     
 }
 /* Large devices (large desktops, 1280px and up) */
 @media (min-width: 1280px) {
@@ -97,4 +35,5 @@
   
 
 }
+
 

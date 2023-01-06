@@ -1,13 +1,17 @@
-.background-azul {
-    background-color: #1D4ED8;;
-}
 
 .titulo-sistema {
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
-    left: 87px;
-    top: 22px;
+    margin-left: 87px;
+    margin-top: 22px;
+}
+
+.nav-container {
+    width: 100%;
+    padding-right: 0; 
+    padding-left: 0; 
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .div-perfil {
@@ -43,6 +47,8 @@
 
 }
 
+/* Navbar */
+
 aside {
     background: #DBEAFE;
     width: 245px;
@@ -62,9 +68,10 @@ aside {
     margin-left: 13px;
 }
 
-.footer-content {
-    margin-bottom: 0px;
+.footer-content-painel {
+    margin-bottom: 16px !important;
 }
+
 
 .versao-text {
     margin-top: 13px;
@@ -72,4 +79,60 @@ aside {
     font-size: 12px;
     line-height: 18px;
     color: #737373;
+}
+
+/* Titulo Principal */
+
+.titulo-painel {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3A8A;
+}
+
+.text-button {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.button-painel {
+    margin-right: 85px;
+
+}
+
+.btn-painel {
+    padding: 5px 16px 5px 12px;
+    border-radius: 3px;
+    margin-left: 13px;
+}
+
+/* Aviso */
+.caixa-aviso {
+    background: #FDA4AF;
+    border-radius: 5px;
+    width: 633px;
+    /* height: 188px; */
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+.titulo-aviso {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BE123C;
+}
+
+.texto-aviso {
+    color: #404040;
+    padding: 35px;
+    ont-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+.icone-aviso {
+    width: 24px;
+    height: 24px;
 }
