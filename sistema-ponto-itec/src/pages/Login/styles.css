@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 /* mobile first */
 .background-azul {
     background-color: #1E3A8A;
@@ -13,25 +15,28 @@
 .container {
     width: 255px;
     padding-top: 163px;
+    font-family: 'Inter', sans-serif;
 }
 
 .nome-orgao {
     font-size: 18px;
     font-weight: 700;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 .nome-gestor {
     font-weight: 600;
     margin-bottom: 0;
     color: white;
+    font-style: normal;
 
 }
 
 .div-input-icone {
     background-color: white;
     margin-top: 47px;
-    width: 220px;
+    width: 240px;
     height: 34px;
     border-radius: 2px;
     justify-content: space-between;
@@ -42,7 +47,7 @@
 .div-input-icone-senha {
     background-color: white;
     margin-top: 13px;
-    width: 220px;
+    width: 240px;
     height: 34px;
     border-radius: 2px;
     justify-content: space-between;

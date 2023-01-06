@@ -1235,6 +1235,23 @@
   dependencies:
     "prop-types" "^15.8.1"
 
+"@fullcalendar/core@^6.0.2", "@fullcalendar/core@~6.0.2":
+  "integrity" "sha512-mpJ+8l2t6b98umrRG2FfDnMqEr0Z+wNT2SjY7H49V3wcj4oe3gwuty8GBYHG/vgxS+DXR/NcEvW1CsMQh4Cr/A=="
+  "resolved" "https://registry.npmjs.org/@fullcalendar/core/-/core-6.0.2.tgz"
+  "version" "6.0.2"
+  dependencies:
+    "preact" "^10.0.5"
+
+"@fullcalendar/daygrid@^6.0.2":
+  "integrity" "sha512-OoHo+HbKmunq2hy5K6T2390DmSwXIENxHBeKFPlUXHK48xD/zXQI3N1zRlZRd83+Yrq+vDF6l8ObO9PMu2leJw=="
+  "resolved" "https://registry.npmjs.org/@fullcalendar/daygrid/-/daygrid-6.0.2.tgz"
+  "version" "6.0.2"
+
+"@fullcalendar/react@^6.0.2":
+  "integrity" "sha512-/rL21DcgD3CGwrB/0zpqJxcWoK2rb/AF7rcuvwgjsmUCd7Xv9/syY7yuHbhIw3/WnFE3Qz7KL3u8vEjILwlwiA=="
+  "resolved" "https://registry.npmjs.org/@fullcalendar/react/-/react-6.0.2.tgz"
+  "version" "6.0.2"
+
 "@humanwhocodes/config-array@^0.11.8":
   "integrity" "sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"
@@ -7351,6 +7368,11 @@
     "picocolors" "^0.2.1"
     "source-map" "^0.6.1"
 
+"preact@^10.0.5":
+  "integrity" "sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg=="
+  "resolved" "https://registry.npmjs.org/preact/-/preact-10.11.3.tgz"
+  "version" "10.11.3"
+
 "prelude-ls@^1.2.1":
   "integrity" "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
@@ -7547,7 +7569,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8":
+"react-dom@^16.7.0 || ^17 || ^18", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -7650,7 +7672,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.3", "react@>=16.8":
+"react@^16.7.0 || ^17 || ^18", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.3", "react@>=16.8":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

@@ -7,7 +7,7 @@ export function Ponto() {
         <div className="vh-100 justify-content-center align-items-center">
             <nav className="navbar navbar-dark background-azul">
                 <div className="d-flex nav-container">
-                    <a className="navbar-brand titulo-sistema" href="#">Sistema Ponto</a>
+                    <a className="navbar-brand titulo-sistema" href="/painel-principal">Sistema Ponto</a>
                     <button className="btn d-flex flex-row div-perfil">
                         <div className="d-flex flex-column text-white div-nome-perfil"> 
                             <p className="texto-perfil">Analísta - nível 1</p> 
@@ -18,9 +18,9 @@ export function Ponto() {
                 </div>
             </nav>
 
-            <div className="d-flex flex-row h-100">
+            <div className="d-flex flex-row h-100 justify-content-between">
 
-                <aside className="h-100 d-flex flex-column justify-content-between">
+                <aside className="d-flex flex-column h-full justify-content-between">
 
                     <div className="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
                     

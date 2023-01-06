@@ -25,7 +25,7 @@ export function Alterar() {
                     </div>
 
                     <div className="div-input-icone-senha input-group ">
-                        <input className="input-usuario" type="password" placeholder="Confirmação de senha" required/>
+                        <input className="input-usuario" type="password" placeholder="Confirmar de senha" required/>
                         <img src="cadeado.png" alt="" className="icone"/>
                     </div>
 

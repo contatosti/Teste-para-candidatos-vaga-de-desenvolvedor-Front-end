@@ -1,5 +1,7 @@
 import * as React from 'react';
 import "./styles.css";
+import FullCalendar from '@fullcalendar/react' // must go before plugins
+import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
 
 export function Painel() {
 
@@ -7,7 +9,7 @@ export function Painel() {
         <div className="vh-100 justify-content-center align-items-center">
             <nav className="navbar navbar-dark background-azul">
                 <div className="d-flex nav-container">
-                    <a className="navbar-brand titulo-sistema" href="#">Sistema Ponto</a>
+                    <a className="navbar-brand titulo-sistema" href="/painel-principal">Sistema Ponto</a>
                     <button className="btn d-flex flex-row div-perfil">
                         <div className="d-flex flex-column text-white div-nome-perfil"> 
                             <p className="texto-perfil">Analísta - nível 1</p> 
@@ -18,9 +20,9 @@ export function Painel() {
                 </div>
             </nav>
 
-            <div className="d-flex flex-row h-100">
+            <div className="d-flex flex-row justify-content-between">
 
-                <aside className="h-100 d-flex flex-column justify-content-between">
+                <aside className="d-flex flex-column h-full justify-content-between">
 
                     <div className="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
                     
@@ -91,20 +93,28 @@ export function Painel() {
                         </div>
 
                         {/* calendario */}
+                        {/* <div className="calendario-painel">
+                            <FullCalendar
+                                plugins={[ dayGridPlugin ]}
+                                initialView="dayGridMonth"
+                            />
+                        </div> */}
+                        
                     </div>
 
                     <div className="div-tabela px-5 py-4 mx-5 rounded">
 
-                        <form className="d-flex">
+
+                        <form className="d-flex pb-3">
                             <button className="btn btn-busca" type="submit">
                                 <img src="lupa.png" alt="" className="icone-aviso"/>
                             </button>
-                            <input className="form-control me-1" type="search" placeholder="Buscar" aria-label="Search"/>
+                            <input className="form-control me-1 campo-busca" type="search" placeholder="Buscar" aria-label="Search"/>
                         </form>
                         
 
-                        <table className="table ">
-                            <thead>
+                        <table className="table tabela-horario">
+                            <thead className="bg-primary text-white">
                                 <tr>
                                 <th scope="col">Data</th>
                                 <th scope="col">Entrada</th>
@@ -117,45 +127,78 @@ export function Painel() {
 
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody className='bg-white'>
                                 <tr>
-                                <th scope="row">00/00/00</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                    <th scope="row">00/00/00</th>
+                                    <td>08:02:35</td>
+                                    <td>12:02:35</td>
+                                    <td>13:05:01</td>
+                                    <td>17:05:03</td>
+                                    <td>00</td>
+                                    <td>08:00</td>
                                 </tr>
+
                                 <tr>
-                                <th scope="row">00/00/00</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                    <th scope="row">00/00/00</th>
+                                    <td>08:02:35</td>
+                                    <td>12:02:35</td>
+                                    <td>13:05:01</td>
+                                    <td>17:05:03</td>
+                                    <td>00</td>
+                                    <td>08:00</td>
                                 </tr>
+
                                 <tr>
-                                <th scope="row">00/00/00</th>
-                                <td>Jacob</td>
-                                <td>@twitter</td>
+                                    <th scope="row">00/00/00</th>
+                                    <td>08:02:35</td>
+                                    <td>12:02:35</td>
+                                    <td>13:05:01</td>
+                                    <td>17:05:03</td>
+                                    <td>00</td>
+                                    <td>08:00</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">00/00/00</th>
+                                    <td>08:02:35</td>
+                                    <td>12:02:35</td>
+                                    <td>13:05:01</td>
+                                    <td>17:05:03</td>
+                                    <td>00</td>
+                                    <td>08:00</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">00/00/00</th>
+                                    <td>08:02:35</td>
+                                    <td>12:02:35</td>
+                                    <td>13:05:01</td>
+                                    <td>17:05:03</td>
+                                    <td>00</td>
+                                    <td>08:00</td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <nav aria-label="...">
-                            <ul className="pagination">
-                                <li className="page-item disabled">
-                                <a className="page-link" href="#" aria-disabled="true">Anterior</a>
+                        <nav aria-label="Page navigation example" className="bg-primary text-white">
+                            <ul className="pagination d-flex justify-content-end align-items-center">
+                                <li className="page-item ">
+                                    <a className="page-link bg-primary text-white" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
                                 </li>
-                                <li className="page-item"><a className="page-link" href="#">1</a></li>
-                                <li className="page-item active" aria-current="page">
-                                <a className="page-link" href="#">2</a>
-                                </li>
-                                <li className="page-item"><a className="page-link" href="#">3</a></li>
+                                <li className="page-item"><a className="page-link bg-primary text-white" href="#">1</a></li>
+                                <li className="page-item"><a className="page-link bg-primary text-white" href="#">2</a></li>
+                                <li className="page-item"><a className="page-link bg-primary text-white" href="#">3</a></li>
                                 <li className="page-item">
-                                <a className="page-link" href="#">Próximo</a>
+                                <a className="page-link bg-primary text-white" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    
-                    
+                                      
                 </section>
 
             </div>

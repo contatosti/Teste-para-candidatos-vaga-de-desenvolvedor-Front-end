@@ -4,6 +4,7 @@
     font-size: 24px;
     margin-left: 87px;
     margin-top: 22px;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav-container {
@@ -38,13 +39,11 @@
     margin: 0;
     font-size: 14px;
     font-weight: 400;
-
 }
 
 .icone-perfil {
     margin-right: 14px;
     margin-top: 8px;
-
 }
 
 /* Navbar */
@@ -61,6 +60,7 @@ aside {
     font-size: 16px;
     line-height: 24px;
     width: 245px !important;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn-aside:hover {
@@ -71,18 +71,12 @@ aside {
 .icone-aside {
     width: 24px;
     height: 24px;
-
 }
 
 .text-aside {
     margin: 0;
     margin-left: 13px;
 }
-
-.footer-content-painel {
-    margin-bottom: 16px !important;
-}
-
 
 .versao-text {
     margin-top: 13px;
@@ -99,6 +93,7 @@ aside {
     font-size: 32px;
     line-height: 48px;
     color: #1E3A8A;
+    font-family: 'Inter', sans-serif;
 }
 
 .text-button {
@@ -154,12 +149,24 @@ aside {
     height: 24px;
 }
 
+/* calendario */
+
+.calendario-painel {
+    height: 300px;
+    background: rosybrown;
+}
+
 /* Tebela com busca e paginacao */
 
 .div-tabela {
     background: #D9D9D9;
 }
 
+.tabela-horario {
+    margin-bottom: 0;
+}
+
 .btn-busca {
     background-color: white;
+    border: solid 1px #D9D9D9;
 }
