@@ -20,12 +20,12 @@ export function Login() {
                         <p className="nome-gestor text-center">Área do gestor</p>
 
                         <div className="div-input-icone input-group ">
-                            <input className="input-usuario" type="text" placeholder="Usuário"/>
+                            <input className="input-usuario" type="text" placeholder="Usuário" required/>
                             <img src="usuario.png" alt="" className="icone"/>
                         </div>
 
                         <div className="div-input-icone-senha input-group ">
-                            <input className="input-usuario" type="password" placeholder="Senha"/>
+                            <input className="input-usuario" type="password" placeholder="Senha" required/>
                             <img src="cadeado.png" alt="" className="icone"/>
                         </div>
 

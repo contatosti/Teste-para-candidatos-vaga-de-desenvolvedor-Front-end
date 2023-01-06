@@ -20,7 +20,7 @@ export function Recuperacao() {
                         <p className="nome-gestor text-center">Solicitação de recuperação de senha</p>
 
                         <div className="div-input-icone input-group ">
-                            <input className="input-usuario" type="email" placeholder="Email"/>
+                            <input className="input-usuario" type="email" placeholder="Email" required/>
                             <img src="usuario.png" alt="" className="icone"/>
                         </div>
 

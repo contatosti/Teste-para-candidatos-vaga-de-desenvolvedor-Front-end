@@ -20,12 +20,12 @@ export function Alterar() {
                     <p className="nome-gestor text-center">Alteração de senha</p>
 
                     <div className="div-input-icone input-group ">
-                        <input className="input-usuario" type="password" placeholder="Nova senha"/>
+                        <input className="input-usuario" type="password" placeholder="Nova senha" required/>
                         <img src="cadeado.png" alt="" className="icone"/>
                     </div>
 
                     <div className="div-input-icone-senha input-group ">
-                        <input className="input-usuario" type="password" placeholder="Confirmação de senha"/>
+                        <input className="input-usuario" type="password" placeholder="Confirmação de senha" required/>
                         <img src="cadeado.png" alt="" className="icone"/>
                     </div>
 
