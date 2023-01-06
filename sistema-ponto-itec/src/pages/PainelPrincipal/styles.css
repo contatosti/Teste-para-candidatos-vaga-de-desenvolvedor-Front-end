@@ -1,0 +1,172 @@
+
+.titulo-sistema {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 87px;
+    margin-top: 22px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-container {
+    width: 100%;
+    padding-right: 0; 
+    padding-left: 0; 
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.div-perfil {
+    background: #2563EB;
+    border-radius: 50px;
+    color: white;
+    margin: 16px 85px 16px auto;
+}
+
+.div-nome-perfil {
+    width: 196px;
+    height: 48px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+.texto-perfil {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.texto-perfil2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icone-perfil {
+    margin-right: 14px;
+    margin-top: 8px;
+}
+
+/* Navbar */
+
+aside {
+    background: #DBEAFE;
+    width: 245px;
+}
+
+.btn-aside {
+    padding: 24px 40px 24px 40px;
+    color: #3B82F6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 245px !important;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-aside:hover {
+    background-color: #BFDBFE;
+    color: #3B82F6;;
+}
+
+.icone-aside {
+    width: 24px;
+    height: 24px;
+}
+
+.text-aside {
+    margin: 0;
+    margin-left: 13px;
+}
+
+.versao-text {
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #737373;
+}
+
+/* Titulo Principal */
+
+.titulo-painel {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3A8A;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-button {
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.btn-painel {
+    padding: 5px 16px 5px 12px;
+    border-radius: 3px;
+    margin-left: 13px;
+    width: auto;
+    height: 34px;
+}
+
+.icone-ajuda {
+    width: 18px;
+    height: 18px;
+}
+
+/* Aviso */
+.caixa-aviso {
+    background: #FDA4AF;
+    border-radius: 5px;
+    width: 633px;
+    margin-left: 48px;
+    margin-top: 33px;
+}
+
+.titulo-aviso {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BE123C;
+    margin-bottom: 0;
+}
+
+.texto-aviso {
+    color: #404040;
+    padding: 18px 33px 1px 33px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+
+}
+
+.icone-aviso {
+    width: 24px;
+    height: 24px;
+}
+
+/* calendario */
+
+.calendario-painel {
+    height: 300px;
+    background: rosybrown;
+}
+
+/* Tebela com busca e paginacao */
+
+.div-tabela {
+    background: #D9D9D9;
+}
+
+.tabela-horario {
+    margin-bottom: 0;
+}
+
+.btn-busca {
+    background-color: white;
+    border: solid 1px #D9D9D9;
+}

@@ -1,0 +1,39 @@
+.container-recuperacao {
+    width: auto;
+    padding-top: 163px;
+}
+
+.btn-solicitar {
+    width: 160px;
+    height: 32px;
+    padding: 4px, auto , 4px, auto !important;
+    margin-top: 61px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+
+/* Medium devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+
+    .container-recuperacao {
+        width: 350px;
+        height: 400px;
+        background: #E2E8F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding-top: 0;
+    }
+     
+}
+/* Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+    
+  
+
+}
+
+
