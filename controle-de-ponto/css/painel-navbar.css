@@ -1,0 +1,132 @@
+body,
+html {
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #1d4ed8;
+    padding: 1rem 5rem;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#usuario-info {
+    background-color: #2563eb;
+    padding: 0.5rem 14px;
+    border-radius: 50px;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#usuario-info p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+#usuario-info p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#main {
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+#sidebar {
+    background-color: #dbeafe;
+    height: 100%;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sidebar-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#sidebar > div > img {
+    width: 143px;
+    height: auto;
+}
+
+#sidebar > div > p {
+    font-size: 12px;
+    color: #737373;
+    margin-top: 13px;
+}
+
+#sidebar button {
+    background-color: transparent;
+    border: none;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0 1.5rem 3rem;
+    margin: 0;
+}
+
+#sidebar button img {
+    margin-right: 12px;
+}
+
+#content {
+    padding: 1rem 30px;
+    width: 100%;
+    max-width: 950px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu h1 {
+    color: #1e3a8a;
+    font-size: 32px;
+}
+
+#menu button {
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 16px;
+    line-height: 24px;
+    margin-left: 13px;
+}
+
+#menu button img {
+    margin-right: 8px;
+}
+
+#menu button a {
+    text-decoration: none
+}
+
+.bg-red {
+    background-color: #e11d48;
+}
+
+.bg-blue {
+    background-color: #2563eb;
+}
+
+.bg-green {
+    background-color: #10B981;
+}
