@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/painel-navbar.css" />
+    <link rel="stylesheet" href="../css/painel-controle.css" />
+</head>
+<body>
+    <header>
+        <h2>Sistema de Ponto</h2>
+        <div id="usuario-info">
+            <div>
+                <p>Analista - nível 1</p>
+                <p>Nome Sobrenome</p>
+            </div>
+            <a href="../login.html"><img src="../imagens/icons/headericon.png" /></a>
+        </div>
+    </header>
+    <div id="main">
+        <aside id="sidebar">
+            <div>
+                <button>
+                    <img src="../imagens/icons/nav-pagina-inicial.png" />Página Inicial
+                </button>
+                <button><img src="../imagens/icons/nav-cadastro.png" />Cadastro</button>
+                <button><img src="../imagens/icons/nav-relatorio.png" />Relatório</button>
+            </div>
+            <div id="sidebar-info">
+                <img src="../imagens/ativo-preto.png" />
+                <p>2022 - versão 1.0</p>
+            </div>
+        </aside>
+        <div id="content">
+            <div id="menu">
+                <h1>Ponto Eletrônico</h1>
+                <div>
+                    <button class="bg-red">
+                        <img src="../imagens/icons/info.png" />Solicite ajuda
+                    </button>
+                </div>
+            </div>
+            <div id="telaponto">
+                <div id="telafoto">
+                    <img src="../imagens/picture.png"/>
+                </div>
+                <div id="form-tela">
+                    <input type="date"
+                           placeholder="30/11/2022"
+                           name="data"
+                           id="data"
+                           class="caixa">
+                    <input type="time"
+                           placeholder="17:30:02"
+                           name="tempo"
+                           id="tempo"
+                           class="caixa">
+                    <input type="text"
+                           placeholder="Saída"
+                           name="saida"
+                           id="tipo"
+                           class="caixa">
+                    <button class="bg-blue"><img src="../imagens/icons/pic-icon.png" />Tirar foto</button>
+                    <button class="bg-green"><a href="painel-principal.html"><img src="../imagens/icons/verify-icon.png" />Bater ponto</a></button>
+                    <button class="bg-red"><a href="painel-principal.html"><img src="../imagens/icons/danger-icon.png" />Cancelar</a></button>
+                </div>
+            </div>
+            <div id="ultimos">
+                <p>Últimos pontos batidos:</p>
+                <div id="pessoa">
+                    <img src="../imagens/pessoa.png"/>
+                    <div>
+                        <p>Data: 30/11/2022</p>
+                        <p>Hora: 13:21:06</p>
+                        <p>Tipo: Entrada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

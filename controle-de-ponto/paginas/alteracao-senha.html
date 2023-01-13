@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Senha</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="formulario">
+                <div>
+                  <h1>[Nome do Orgão]</h1>
+                  <h2>Alteração de senha</h2>  
+                </div>
+                <form action="../login.html" method="post">
+                    <div class="campo">
+                        <div class="entrada">
+                            <input type="password" placeholder="Nova senha" name="login" id="novasenha" class="caixa" required>
+                            <img src="../imagens/icons/cadeado.png">
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <div class="entrada">
+                            <input type="password" placeholder="Confirmar senha" name="login" id="renovasenha" class="caixa" required>
+                            <img src="../imagens/icons/cadeado.png">
+                        </div>
+                    </div>
+                    <button type="submit">Alterar senha</button>
+                </form>
+            </div>  
+        </section>
+    <footer className="d-flex w-full align-items-center footer-content">
+      <img src="../imagens/ativo.png" alt="Logo ativo" class="logoatv" />
+      <p class="versao">2022 - versão 1.0</p>
+    </footer>
+</body>
+</html>

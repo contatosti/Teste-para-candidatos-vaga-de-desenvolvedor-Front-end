@@ -1,0 +1,114 @@
+section {
+  margin-top: 2rem;
+}
+
+#carrousel {
+  display: flex;
+  background-color: #fda4af;
+  border-radius: 5px;
+  align-items: center;
+  padding: 13px 9px;
+  max-width: 633px;
+}
+
+#carrousel > div {
+  font-size: 12px;
+  text-align: center;
+  padding: 9px 33px;
+  color: #404040;
+  line-height: 18px;
+}
+
+#carrousel > div > h3 {
+  color: #be123c;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+#carrousel > div > p {
+  text-align: left;
+}
+
+#carrousel button {
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+#tabela {
+  padding: 24px 37px;
+  background-color: #d9d9d9;
+  margin-top: 19px;
+  border-radius: 5px;
+}
+
+#tabela table {
+  width: 100%;
+  margin-top: 14px;
+  background-color: #1d4ed8;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#tabela th {
+  color: #fff;
+  padding: 8px 24px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+#tabela tbody > tr {
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 300;
+  border-bottom: 1px solid #64748b;
+}
+
+#paginacao {
+  width: 100%;
+  background-color: #1d4ed8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+#paginacao p {
+  font-size: 12px;
+  margin-right: 21px;
+}
+
+#paginacao button {
+  background-color: transparent;
+  border: none;
+}
+
+#paginacao button:nth-child(2) {
+  margin-right: 32px;
+}
+
+#pesquisar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #a3a3a3;
+  height: 36px;
+}
+
+#pesquisar img {
+  padding: 11px;
+  border-right: 1px solid #a3a3a3;
+}
+
+#pesquisar input {
+  border: none;
+  margin-left: 8px;
+  width: calc(100% - 45px);
+  height: 100%;
+}

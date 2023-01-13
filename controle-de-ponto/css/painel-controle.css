@@ -1,0 +1,94 @@
+#telaponto {
+    padding: 32px 30px;
+    background-color: #CBD5E1;
+    margin-top: 16px;
+    margin-left: 44px;
+    border-radius: 5px;
+    width: 790px;
+    height: 368px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#telafoto {
+    background-color: #E2E8F0;
+    border-radius: 5px;
+    width: 445px;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form-tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#form-tela input{
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 12px;
+    line-height: 24px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+#form-tela button {
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 16px;
+    line-height: 24px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+#form-tela button img {
+    margin-right: 8px;
+}
+
+#form-tela button a {
+    text-decoration: none
+}
+
+#ultimos > p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #334155;
+    margin-top: 16px;
+    margin-left: 44px;
+}
+
+#ultimos > div {
+    width: 380px;
+    height: 96px;
+    background: #CBD5E1;
+    border-radius: 5px;
+    padding: 30px 16px;
+}
+
+#pessoa {
+    margin-top: 16px;
+    margin-left: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pessoa > div > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #64748B;
+    margin-right: 120px;
+}
+
+
